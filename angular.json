@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngxtranlate-demo"
+    }
+  },
+  "defaultProject": "ngxtranlate-demo",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,12 @@
+{
+    "HOME":{
+        "TITLE": "i18n Sample Application",
+        "TEXT": "This is how we implement i18n",
+        "SELECT": "Select the language",
+        "Name": "Name",
+        "Email": "Email",
+        "Phone": "Phone",
+        "Password": "Password",
+        "No": "No"
+    }
+}

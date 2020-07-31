@@ -1,0 +1,12 @@
+{
+    "HOME":{
+        "TITLE": "TA:::: i18n Sample Application",
+        "TEXT   ": "TA::::  This is how we implement i18n",
+        "SELECT": "TA::::  Select the language",
+        "Name": "TA:::: Name",
+        "Email": "TA:::: Email",
+        "Phone": "TA:::: Phone",
+        "Password": "TA:::: Password",
+        "No": "TA:::: No"
+    }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngxtranlate-demo';
+  
+  constructor(public translate: TranslateService){
+    translate.addLangs(['en', 'fr', 'ta'])
+    translate.setDefaultLang('en')
+    const browserLang = translate.getBrowserLang();
+    translate.use(browserLang.match(/en|fr/)? browserLang : 'en');
+  }
+
+
+  displayList = [
+    {
+      label: "No"
+    },
+    {
+      label: "Name"
+    },
+    {
+      label: "Email"
+    },
+    {
+      label: "Phone"
+    },
+    {
+      label: "Password"
+    }
+  ]
+
+
 }
